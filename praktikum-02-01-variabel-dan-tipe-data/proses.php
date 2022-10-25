@@ -1,7 +1,5 @@
 <?php
 
-
-
 if(isset($_POST["spn"])){
 
 $nim = $_POST["nim"];
@@ -11,16 +9,14 @@ $program = $_POST["program"];
 }
 
 	if ($nim == "" || $nama == "" || $program == "") {
-	echo "<p>Isi Semua Data, Klik <a href='input.html'> di sini</a> untuk kembali</p>";
+	echo "<p><h3>Isi Semua Data, Klik <a href='input.html'> di sini</a> untuk kembali</h3</p>";
 	die;
    }
 
-
     echo '<h1>Hasil Input Data Mahasiswa</h1>';
 	echo '<ul>';
-	echo '<li>NIM : ' . $_POST['nim'] . '</li>';
-	echo '<li>NAMA : ' . $_POST['nama'] . '</li>';
-	echo '<li>PROGRAM : ' . $_POST['program'] . '</li>';
-    
-	
+	echo "<p>Hai, perkenalkan nama saya adalah :".$nama.", 
+	dengan NIM :".$nim.", Saya adalah mahasiswa dari program studi :".$program."<p>";
+
+
 ?>
