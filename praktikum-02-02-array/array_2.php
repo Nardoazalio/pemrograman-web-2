@@ -92,7 +92,9 @@
             </div>
             <ul class="list-group list-group-flush">
                 <?php
-                $result = array_merge($programmer_php, $programmer_python);
+                $result = array_keys(
+                    array_flip($programmer_php) + array_flip($programmer_python)
+                );
                 foreach ($result as $hasil) : ?>
                     <li class="list-group-item"><?= $hasil; ?></li>
                 <?php endforeach; ?>
