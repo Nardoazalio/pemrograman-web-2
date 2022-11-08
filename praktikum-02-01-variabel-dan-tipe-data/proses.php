@@ -15,8 +15,8 @@ $program = $_POST["program"];
 
     echo '<h1>Hasil Input Data Mahasiswa</h1>';
 	echo '<ul>';
-	echo "<p>Hai, perkenalkan nama saya adalah :".$nama.", 
-	dengan NIM :".$nim.", Saya adalah mahasiswa dari program studi :".$program."<p>";
+	echo "<p>Hai, Perkenalkan nama saya adalah :".$nama.", 
+	dengan NIM :".$nim.", Saya adalah mahasiswa dari Program Studi :".$program."<p>";
 
 
 ?>
