@@ -7,7 +7,6 @@ $nama = $_POST["nama"];
 $program = $_POST["program"];
 
 }
-
 	if ($nim == "" || $nama == "" || $program == "") {
 	echo "<p><h3>Isi Semua Data, Klik <a href='input.html'> di sini</a> untuk kembali</h3</p>";
 	die;
