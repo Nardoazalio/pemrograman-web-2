@@ -1,4 +1,4 @@
-# pemrograman-web-2
-Praktikum web2
+# pemrograman-web-2 [PRAKTIKUM] 
+
 NARDO AZALIO BANGRI
-2020225082
+20202205082
